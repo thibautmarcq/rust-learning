@@ -1,12 +1,24 @@
 # rust-learning
 
-Basic repository for learning Rust through small independent projects.
+Repository used to learn Rust through small independent exercises and mini-projects.
 
-Each folder contains a focused example built to practice a specific Rust concept or part of the ecosystem, without trying to be a full application.
+Each folder is a focused example designed to practice a specific Rust concept without aiming to build a full application.
 
-## Contents
+## Projets
 
-- [basic-threading](basic-threading/) - minimal threading example using threads, shared data via `Arc` and clean termination with `join`.
-- [ls-program](ls-program/) - a small `ls`-style CLI working reading its path through the program arguments or stdin. Simply lists directory entries if the given path is correct. 
-- [prod-cons](prod-cons/) - a producer-consumer threading example using a shared queue protected by `Mutex` and coordinated with `Condvar`.
-- [units-converter](units-converter/) - a simple CLI units converter with temperature conversions (Celsius <-> Fahrenheit) split across `main.rs` and a `conversion` module.
+- [basic-threading](basic-threading/) - basic multithreading example using `thread::spawn`, shared state with `Arc`, and clean thread termination with `join`.
+- [ls-program](ls-program/) - small `ls`-style CLI that reads a directory path from arguments or stdin and prints entries.
+- [prod-cons](prod-cons/) - producer/consumer pattern using a shared queue protected by `Mutex` and synchronized with `Condvar`.
+- [units-converter](units-converter/) - simple temperature converter between Celsius and Fahrenheit, split between `main.rs` and a `conversion` module.
+- [text-analyzer](text-analyzer/) - reads a text file and computes the number of lines, total words, longest word, and the 3 most frequent words.
+
+## Usage
+
+Each project is independent and contains its own `Cargo.toml`.
+
+```bash
+cd <project-folder>
+cargo run
+```
+
+This repository is mainly intended as a hands-on Rust learning workspace.
