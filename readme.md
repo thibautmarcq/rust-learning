@@ -9,9 +9,10 @@ Each folder is a focused example designed to practice a specific Rust concept wi
 - [basic-threading](basic-threading/) - basic multithreading example using `thread::spawn`, shared state with `Arc`, and clean thread termination with `join`.
 - [ls-program](ls-program/) - small `ls`-style CLI that reads a directory path from arguments or stdin and prints entries.
 - [prod-cons](prod-cons/) - producer/consumer pattern using a shared queue protected by `Mutex` and synchronized with `Condvar`.
-- [traffic-light](traffic-light/) - traffic light state machine using enums, pattern matching, and manual state transitions.
 - [units-converter](units-converter/) - simple temperature converter between Celsius and Fahrenheit, split between `main.rs` and a `conversion` module.
 - [text-analyzer](text-analyzer/) - reads a text file and computes the number of lines, total words, longest word, and the 3 most frequent words.
+- [traffic-light](traffic-light/) - traffic light state machine using enums, pattern matching, and manual state transitions.
+- [formes](formes/) - geometry example demonstrating trait-based polymorphism with circles, rectangles, and squares.
 
 ## Usage
 
