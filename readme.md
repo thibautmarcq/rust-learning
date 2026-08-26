@@ -13,6 +13,7 @@ Each folder is a focused example designed to practice a specific Rust concept wi
 - [text-analyzer](text-analyzer/) - reads a text file and computes the number of lines, total words, longest word, and the 3 most frequent words.
 - [traffic-light](traffic-light/) - traffic light state machine using enums, pattern matching, and manual state transitions.
 - [formes](formes/) - geometry example demonstrating trait-based polymorphism with circles, rectangles, and squares.
+- [config-parser](config-parser/) - parses a configuration file into structured values with custom error handling.
 
 ## Usage
 
